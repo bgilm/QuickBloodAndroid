@@ -3,16 +3,16 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_mapa"
             android:icon="@drawable/ic_map"
             android:title="Mapa" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_lista"
             android:icon="@drawable/ic_menu"
             android:title="Lista" />
 
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_perfil"
             android:icon="@drawable/ic_user"
             android:title="Perfil" />
     </group>
@@ -20,11 +20,11 @@
     <item android:title="Communicación">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/nav_compartir"
                 android:icon="@drawable/ic_menu_share"
                 android:title="Compartir" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/nav_enviar"
                 android:icon="@drawable/ic_menu_send"
                 android:title="Enviar" />
         </menu>

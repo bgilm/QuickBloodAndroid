@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.benn.quickblood.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="428dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="72dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView2"
+                    android:src="@drawable/ic_user" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Nombre:"
+                    android:id="@+id/nombreLabel"
+                    android:layout_gravity="center_vertical" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Name"
+                    android:ems="10"
+                    android:id="@+id/editText"
+                    android:layout_gravity="center_vertical" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Fecha de Nacimiento:"
+                android:id="@+id/fechaNacLabel"
+                android:layout_marginLeft="10dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:ems="10"
+                android:id="@+id/editText2"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Tipo de Sangre:"
+                android:id="@+id/textView2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp" />
+
+            <Spinner
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:spinnerMode="dropdown" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Elegible:"
+                android:id="@+id/textView3"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/elegible"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:checked="false" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
